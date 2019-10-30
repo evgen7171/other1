@@ -1,0 +1,23 @@
+[
+    {
+        "quantity": 5,
+        "id_product": 101,
+        "product_name": "Man t-shirt (print)",
+        "price": 45,
+        "img": "product-1.jpg"
+    },
+    {
+        "quantity": 2,
+        "id_product": 104,
+        "product_name": "Woman flower dress",
+        "price": 55,
+        "img": "product-4.jpg"
+    },
+    {
+        "quantity": 4,
+        "id_product": 109,
+        "product_name": "Man windbracker",
+        "price": 60,
+        "img": "product-9.jpg"
+    }
+]

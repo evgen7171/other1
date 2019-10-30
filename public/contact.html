@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Main</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700&display=swap" rel="stylesheet">
+    <!--подключение иконочных шрифтов-->
+    <link href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" rel="stylesheet">
+    <!--подключение jQuery-->
+    <script src="http://code.jquery.com/jquery-1.8.3.js"></script>
+</head>
+<body>
+<header class="top container">
+    <a href="#" class="logo">SH</a>
+    <ul class="menu">
+        <li><a href="#" class="menu_link">Woman</a></li>
+        <li><a href="#" class="menu_link">Man</a></li>
+        <li><a href="#" class="menu_link">Kids</a></li>
+        <li><a href="#" class="menu_link">Comming Soon</a></li>
+        <li><a href="#" class="menu_link">About</a></li>
+    </ul>
+    <ul class="persons">
+        <li class="persons_item"><a href="#">
+            <img src="images/user_logo.png" alt="">
+            <span class="persons_item__text">Log In</span>
+        </a></li>
+        <li class="persons_item"><a href="#">
+            <img src="images/cart_logo.png" alt="">
+            <span class="persons_item__text">Basket (0)</span>
+        </a></li>
+    </ul>
+    <form action="#" class="find">
+        <input type="text" placeholder="Search something...">
+        <a href="#">
+            <span class="fa fa-search" aria-hidden="true"></span>
+        </a>
+    </form>
+</header>
+
+<!-- -------------------- -->
+<article class="wrap_content container">
+    <nav class="navigation">
+        <a href="#">HOME</a><span>&nbsp;/&nbsp;</span><a href="#">contact</a>
+    </nav>
+    <div class="wrap-cat">
+        <h3>contact</h3>
+        <p>Lorem ipsum dolor sit amet enim. Etiam ullamcorp uspendisse a pellentesque.</p>
+    </div>
+    <form action="#" class="wrap_form">
+        <div class="wrap_form__line">
+            <label for="topic" class="wrap_form__wide">
+                <h4>Topic</h4>
+                <div class="selection">
+                    <div class="select_dropdown dropdown_contact">
+                        <div class="select">
+                            <span>Lorem ipsum</span>
+                            <div class="select_symb"></div>
+                        </div>
+                        <input type="hidden" name="topic" id="topic">
+                        <ul class="select_dropdown-menu dropdown-menu_contact" id="select_price">
+                            <li id="lorem1">Lorem ipsum 1</li>
+                            <li id="lorem2">Lorem ipsum 2</li>
+                            <li id="lorem3">Lorem ipsum 3</li>
+                        </ul>
+                    </div>
+                </div>
+            </label>
+        </div>
+        <div class="wrap_form__line">
+            <label for="name">
+                <h4>NAME</h4>
+                <input type="text" name="name" id="name">
+            </label>
+            <label for="email">
+                <h4>E-mail</h4>
+                <input id="email" type="text" name="email">
+            </label>
+        </div>
+        <div class="wrap_form__line">
+            <label for="message">
+                <h4>Message</h4>
+                <textarea name="message" id="message" cols="30" rows="10">
+            </textarea>
+            </label>
+        </div>
+        <a href="#">
+            <div class="button">Send</div>
+        </a>
+    </form>
+</article>
+<div class="check_button__back container">
+    <a href="#" class="check_button">You may also like</a>
+</div>
+<!-- -------------------- -->
+
+<div class="inspiration container">
+    <div class="inspiration_arrow inspiration_arrow__left">
+        <span class="fas fa-chevron-left"></span>
+    </div>
+    <ul class="inspiration_items">
+        <li><a href="#">
+            <div></div>
+        </a></li>
+        <li><a href="#">
+            <div></div>
+        </a></li>
+        <li><a href="#">
+            <div></div>
+        </a></li>
+        <li><a href="#">
+            <div></div>
+        </a></li>
+        <li><a href="#">
+            <div></div>
+        </a></li>
+        <li><a href="#">
+            <div></div>
+        </a></li>
+    </ul>
+    <div class="inspiration_arrow inspiration_arrow__right">
+        <span class="fas fa-chevron-right"></span>
+    </div>
+</div>
+<footer class="bottom container">
+    <div class="bottom_item">
+        <h3>Collection</h3>
+        <ul>
+            <li><a href="#">Woman (1725)</a></li>
+            <li><a href="#">Men (635)</a></li>
+            <li><a href="#">Kids (2514)</a></li>
+            <li><a href="#">Comming Soon (76)</a></li>
+        </ul>
+    </div>
+    <div class="bottom_item">
+        <h3>site</h3>
+        <ul>
+            <li><a href="#">Terms of Service</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Copyright Policy</a></li>
+            <li><a href="#">Press Kit</a></li>
+            <li><a href="#">Support</a></li>
+        </ul>
+    </div>
+    <div class="bottom_item">
+        <h3>Shop</h3>
+        <ul>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Shipping Metods</a></li>
+            <li><a href="#">Career</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </div>
+    <div class="bottom_item">
+        <h3>Social</h3>
+        <ul>
+            <li><p>Shoper is made with love in Warsaw,
+                2014 © All rights reserved. El Passion</p>
+            </li>
+            <li>
+                <ul class="social">
+                    <li><a href="#">
+                        <div><span class="fab fa-twitter"></span></div>
+                    </a></li>
+                    <li><a href="#">
+                        <div><span class="fab fa-facebook-f"></span></div>
+                    </a></li>
+                    <li><a href="#">
+                        <div><span class="fab fa-instagram"></span></div>
+                    </a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</footer>
+<script src="js/category_select.js"></script>
+</body>
+</html>
