@@ -1,0 +1,22 @@
+Vue.component('error', {
+    data(){
+        return {
+            text: ''
+        }
+    },
+    methods: {
+        setError(error){
+            this.text = error;
+        }
+    },
+    mounted(){
+
+    },
+    template: `<div class="error-block" v-if="text">
+                    <p class="error-msg">
+                   
+                    <button class="close-btn" @click="text = ''">&times;</button>
+                    {{ text }}
+                    </p>
+                </div>`
+});
